@@ -2,18 +2,32 @@ body {
     padding: 0;
     margin: 0;
 }
-#nav {
+navbar {
     position: fixed !important;
     top: 0;
 }
-#about {
+
+#about p {
     text-align: justify;
+    
 }
 #logo {
     display: grid;
     grid-template-rows: auto;
 }
-#hero img{
-    width: 700px;
-    height: 400px;
+
+#appointment {
+    margin-top: 100px !important;
+    text-decoration: none;
+    color:rgb(37, 122, 233);
+
+}
+#appointment a:hover{
+    background-color: antiquewhite;
+    color: black;
+
+}
+.accordion-collapse  {
+    font-family: 'perpetua', 'Times New Roman', Times, serif !important;
+    font-size: 20px;
 }
