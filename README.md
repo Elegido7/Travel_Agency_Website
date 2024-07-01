@@ -6,7 +6,7 @@ Project Requirements:
         Include a navigation bar with the restuarant's name/logo on the left.
         Add navigation links (Home, about, Menu, Contact) on the right.
     Hero Section:
-        Design a hero section with a background image showcasing a scenic travel destination.
+        Design a hero section with a background image.
         Place a heading, a subheading, and a prominent call-to-action button in the center.
     Destinations Section:
         Create a grid layout to display images and brief descriptions of at least three restaurant features.
