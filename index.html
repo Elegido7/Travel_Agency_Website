@@ -4,47 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles.css">
 
     <script src="https://kit.fontawesome.com/4174bcb05b.js" crossorigin="anonymous"></script>        
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body  class="bg-success-subtle">
-  <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top">
+<!-- The project is a landing page hence all the sections are in one paged linked internally using id -->
+<body  class="body">
+  <nav class="navbar fixed-top navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand fs-3" style="color: blue; font-family: palatino linotype;" href="#">Elegido Restaurant</a>
+      <a class="navbar-brand fs-2 fw-bold text-primary" style="font-family: palatino linotype;" href="#">Dream Travel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Elegido</h5>
+        <div class="offcanvas-header justify-content-center">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DREAM</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
       <div class="offcanvas-body mx-4 fs-5 d-md-flex justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-success" href="index.html">Home</a>
-          </li>                 
-          <li class="nav-item d-flex order-4 order-md-5">
-            <a class="nav-link text-success" href="contact.html">Contact</a>
-          </li>
+            <a class="nav-link text-dark fw-semibold" href="#home">Home</a>
+          </li> 
+          <li class="nav-item d-flex order-4 order-md-3">
+            <a class="nav-link text-dark fw-semibold" href="#destination">Destination</a>
+          </li>         
+          <li class="nav-item d-flex order-md-3 order-md-4">
+            <a class="nav-link text-dark fw-semibold" href="#tours">Tours</a>
+          </li>          
+          <li class="nav-item d-flex order-5 order-md-5">
+            <a class="nav-link text-dark fw-semibold" href="#contact">Contact</a>
+          </li> 
         </ul>        
       </div>
     </div>
   </nav>
 
 <div class="container-fluid mt-3">
-          <!-- Hero image -->
-<section class="bsb-overlay bsb-hover-pull text-opacity-50 img-fluid rounded-5"  style="background-image: url('./Images/Swimming\ pool.jpg'); height: 800px; width: 1500px">
-  <div class="container">
+          <!-- Hero image section-->
+<section class="bsb-overlay bsb-hover-pull text-opacity-50">
+  <div class="container img-fluid rounded-5" id="home" style="background-image: url('./Images/Plitviče\ Waterfalls\,\ Croatia.webp'); height: 800px; width: 1500px">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-11 col-lg-9 col-xl-7 text-center text-white mt-5" style="padding-top: 60px;">
-        <h2 class="display-3 fw-bold mb-3">Chef Special</h2>
-        <p class="lead mb-5 bg-secondary p-2 fw-semibold mt-5 mx-auto">Come dine and enjoy a nostalgic, tasty special from our lead chef.</p>
+        <h3 class="display-3 fw-bold pb-4">Holiday in Kenya and Europe</h3>
+        <p class="fs-4 mb-5 bg-warning text-dark w-50 p-2 fw-semibold mt-5 mx-auto rounded-4">Your Amazing Holiday Choice.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn bsb-btn-xl btn-light gap-3 bg-success-subtle fs-5 fw-semibold"><a href="contact.html">Book with us</a></button>          
-        </div>
+          <button type="button" class="btn bsb-btn-xl btn-light gap-3 bg-success-subtle fs-5 fw-semibold rounded-4"><a href="#contact" class="text-decoration-none" >Take a vacation with us</a></button>                  
+        </div> 
       </div>
     </div>
   </div>
@@ -52,117 +59,198 @@
 </div>  
 <div class="container-fluid mt-5" style="font-family:constantia">
   <div class="row">
-      <div class="col-12 col-md-3 col-lg-4 col-xl-4 font-medium mx-auto">     
-        <h1 class="fs-2 fw-bold text-success text-uppercase mx-4 pt-3">Elegido™</h1>        
-            <p class="text-wrap p-4 fs-3 mx-auto text-center" style="width: 20rem;"><i class="text-secondary">Elegido Restaurant </i>is home to diverse <b style="color: rgb(129, 6, 170);"> local and international</b> cuisines.</p>
-            <P class="text-wrap p-2 fs-4 mx-auto text-center fst-italic">It's the place of warmth, relaxing ambience and lung cleansing experience</P>
+      <div class="col-12 col-md-4 col-lg-7 col-xl-4 font-medium mx-auto mt-4">     
+        <h1 class="fs-2 fw-bold text-primary-emphasis text-uppercase mx-4 pt-3">DREAM™</h1>        
+            <p class="text-wrap p-4 fs-3 mx-auto text-center" style="width: 20rem;"><i class="text-success">DREAM Travel </i>is here to offer diverse <b class="text-danger"> local and international</b> destination.</p>
            <hr>  
-        <h4 class="text-center">Welcome to <b class="text-danger">Elegido Restaurant.</b></h4>                        
-      </div>
-      <div id="carouselExampleAutoplaying" class="col-12 offset-1 col-md-6 col-lg-7 col-xl-7 img-fluid mx-auto p-md-4" data-bs-ride="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          </div>
-        <div class="carousel-inner">      
-          <div class="carousel-item active">
-            <img src="Images/Outdoor.webp" class="d-block rounded-5 img-fluid" width="700px" height="280px" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/Main_hall_5.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/Ambience.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px"alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/Breakfast.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px"alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/wine bar.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px"alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/Pizza_room_1.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px"alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/Swimming pool.jpg" class="d-block rounded-5 img-fluid" width="700px" height="280px"alt="">
-          </div>          
+        <h4 class="text-center mb-4 mt-5">Welcome to <b class="text-success">DREAM™ Travel.</b></h4>                        
+      </div>      
+<div class="col-12 offset-1 col-md-7 col-lg-3 col-xl-7 img-fluid mx-auto p-md-4">     
+      <img src="Images/amazing.jpg" alt="" height="300px" width="700px" class="img-fluid rounded-5">
+</div>
+  <hr/>   
+   <!-- The grid layout displaying destinations -->
+<div class="col-12 bg-white border border-2 bg-warning-subtle">
+  <h2 class="text-center mb-4 mt-3 fw-bold text-success text-decoration-underline" id="destination">Tour Destinations</h2>
+  <div class="row mb-2">
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/Cave.jpg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">Waterfall cave</h3>
+          <p class="card-text">Take a trip to a waterfall in a cave. experience the breeze of nature </p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
         </div>
-      </div>  
-        <button class="carousel-control-prev mx-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next mx-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>     
       </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/Chill.jpg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">Relax</h3>
+          <p class="card-text">Enjoy a relaxing view of a breath-taking horizon with friends.</p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/Japan.jpeg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">Japan</h3>
+          <p class="card-text">Take a trip to Japan and experience the Sakura trees  with japan art. </p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/Chiang-Kai-Shek-Memorial-Taiwan.jpg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">Monument</h3>
+          <p class="card-text">Have you visited the monument of Taiwan? Learn its history and art.</p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/Great wall.jpg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">China visit</h3>
+          <p class="card-text">Enjoy an adventure across the historic Great wall of China</p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mx-auto">
+        <img src="Images/COSTA-RICA.jpg" class="card-img-top img-fluid rounded-3 mx-auto" style="height: 250px; width: 300px;" alt="...">
+        <div class="card-body mx-auto">
+          <h3 class="card-title fw-semibold text-primary">Waterfall</h3>
+          <p class="card-text">Take a trip to Costa Rica and experience the breeze of nature </p>
+          <a href="#" class="btn btn-primary fs-6">Learn more</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-  <div class="container-fluid fs-5" id="about">
-    <div class="row">
-      <div class="container About col-12 col-md-4 col-lg-5 px-2 mt-5" >
-        <h3 style="color: green; font-family: Adobe Garamond Pro Bold;" class="fw-bold pt-3">About Elegido™</h3>
-        
-            <p class="text-wrap p-2 fs-3 mx-4" style="width: 20rem; font-family: Poor Richard;">Elegido Restaurant, is a subsidiary of the <b style="color: rgb(129, 6, 170);"> Elegido™ Company</b>.</p>
-            <p class="text-wrap p-2 text-center fs-3 fst-italic mx-4" style="width:22rem; font-family: palatino;">Elegido restaurant aims at offering the best cuisines and ambience that create <b class="text-danger fs-4 ">Nostalgic memories</b>.</p>              
-      </div>
-      <div class="container col-11 offset-1 col-md-6 col-lg-6 p-5 mt-3 ml-2">
-        <h3 style="color: blue; font-family: Adobe Garamond Pro Bold;" class="fw-bold pt-3">Elegido™</h3>
-        <hr>
-        <img src="Images/Ambience.jpg" alt="" width="600" height="400" class="rounded-5 img-fluid">            
-      </div>
-    </div>
-  </div>
-  
-  <div class="container-fluid"> 
-      <div class="row">         
-        <div class="container col-11 col-md-5 px-2 fs-4 mx-auto" style="font-family: Perpetua;">
-            <h2 class="text-lg text-primary fw-bold">who are we?</h2>
-            <hr/>
-              <p style="text-align: justify;">Nestled in the heart of a the blissful Tigoni region, the <b class="fs-4">Elegido Restaurant</b> offers a cozy retreat for those seeking a culinary experience infused with warmth and charm. Established by <b class="text-danger fs-4">Elegido Leonardo</b> together with <b class="text-primary fs-4">Chef Ramirez</b> in 2015, this beloved eatery has become a cherished gem within the community. It offers rustic yet elegant décor, adorned with vintage wine barrels and flickering modern and vintage lighting. The Elegido Restaurant invites patrons to savor not just delectable cuisine, but an ambiance that feels like home. Chef Ramirez's menu reflects her passion for seasonal, locally sourced ingredients, with dishes ranging from comforting classics to inventive culinary delights. Whether it's a leisurely brunch with friends or a romantic dinner for two, each visit to the Elegido Restaurant promises an unforgettable journey for the senses.</p>
+<!-- The Tours is designed using accordion and a grid layout of card to create a collapsable Tour packages organized in a column -->
+<div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+  <div class="accordion-item border border-5 border-white" id="tours">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <h3 class="text-success fw-semibold">TOUR PACKAGES</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse mt-2" data-bs-parent="#accordionFlushExample">
+      <div class="row" style="font-family: 'Times New Roman', Times, serif;">
+        <div class="col-sm-3">
+          <div class="card mx-auto">
+            <img src="Images/Italia.png" class="card-img-top img-fluid rounded-4 mx-auto" style="height: 300px; width: 400px;" alt="...">
+            <div class="card-body mx-auto">
+              <h3 class="card-title fw-semibold text-primary"> 5 Days Package 2024</h3>
+              <p class="card-text">Rome was not built in a Day. Take a tour and see the historical monuments</p>
+              <a href="#" class="btn btn-primary fs-6 mx-5">View Details</a>
+            </div>
           </div>
-          <div class="container col-11 col-md-6 px-2 mt-2 fs-4 p-4" style="font-family: Perpetua;">
-            <hr>
-            <p class="pt-2" style="text-align: justify;">At Elegido Restaurant, culinary delight awaits with a diverse array of dishes that celebrate the bounty of the seasons. Infused with creativity and passion, the menu reflects a commitment to showcasing the freshest local ingredients, sourced directly from nearby farms and producers. From farm-to-table salads bursting with vibrant colors and flavors to hearty mains that pay homage to traditional recipes with a modern twist, each dish is a masterpiece of culinary craftsmanship. Whether indulging in the delicate flavors of a seafood risotto or savoring the rich aromas of slow-roasted meats, every bite at Elegido Restaurant is a celebration of quality and authenticity. With options to suit every palate, including vegetarian and gluten-free offerings, this restaurant invites diners on a journey of culinary exploration and discovery, where every meal is a testament to the chef's dedication to excellence and the joy of sharing good food with good company.</p>
-          </div>      
-      </div>
-  </div>  
-  <hr/>
-  <div class="accordion accordion-flush" id="accordionFlushExample">
-    <div class="accordion-item border border-5 border-white">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          <h3 class="text-success fw-semibold">Partners</h3>
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body bg-light"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores velit sed, laudantium eius, praesentium minus possimus ea, nobis rem harum ipsam amet. Reiciendis eum, quo quod a officiis debitis incidunt iure mollitia architecto eveniet voluptatem iusto autem asperiores nemo repellendus, tempore corrupti nulla ea fuga totam, corporis sit. Harum quas corporis aspernatur perspiciatis impedit, nobis vero quis aperiam tempore suscipit, officiis doloremque obcaecati magnam! Similique mollitia excepturi porro dolore ullam quidem quos sapiente, fugit quia voluptates rerum totam sequi ab dolorum possimus omnis sunt dicta cum tempore qui? Minima vel omnis distinctio unde dolorum qui maxime et quo dolores fugit esse dicta porro perspiciatis voluptas, aspernatur architecto consequatur laboriosam praesentium perferendis, deleniti sint officia minus. Perspiciatis repellendus, nostrum commodi libero tempore tenetur accusamus totam eum earum cum quis repudiandae non veritatis, facilis quam sapiente dolore explicabo delectus doloremque alias cupiditate. Temporibus expedita totam placeat earum consequatur cum voluptatem quam cumque!</p></div>
-      </div>
-    </div>
-    <div class="accordion-item border border-5 border-white">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          <h3 class="text-success fw-semibold">Awards</h3>
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body bg-light"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores hic, pariatur facere quidem incidunt tempora odit nihil quam in autem. Suscipit minima maxime esse ipsa accusamus corporis cupiditate eligendi nisi voluptatum porro officia voluptatem deserunt modi quos ratione delectus, labore corrupti veniam rerum? Error quibusdam aliquam aliquid quaerat odit voluptatum ea quasi omnis et facilis officia, vero consequuntur necessitatibus ut officiis dolorum? Delectus sequi quae quas blanditiis doloribus maiores iste maxime sed incidunt nesciunt error ad asperiores ducimus rem vero ipsum sint, voluptate tempora? Ab obcaecati animi illo architecto veniam ducimus aliquam molestiae odio similique tempore cum repudiandae quasi laudantium amet corrupti laborum, fugiat praesentium? Veritatis obcaecati alias quod suscipit laudantium ab eum? Voluptatum quisquam, iusto hic accusamus unde laborum aut corporis quasi illum molestiae non natus nostrum ipsam corrupti sunt dolorem, eius a odio. Neque laborum omnis deserunt, blanditiis accusantium dolores, vero fugit veniam esse odio optio tempora aspernatur?</p></div>
+        </div>        
+        <div class="col-sm-3">
+          <div class="card mx-auto">
+            <img src="Images/Mara-Migration.jpg" class="card-img-top img-fluid rounded-4 mx-auto" style="height: 300px; width: 400px;" alt="...">
+            <div class="card-body mx-auto">
+              <h3 class="card-title fw-semibold text-primary">Masaai Mara</h3>
+              <p class="card-text">Witness the great wild beast migration as the cross the borders.</p>
+              <a href="#" class="btn btn-primary fs-6 mx-5">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card mx-auto">
+            <img src="Images/Diani.jpg" class="card-img-top img-fluid rounded-4 mx-auto" style="height: 300px; width: 400px;" alt="...">
+            <div class="card-body mx-auto">
+              <h3 class="card-title fw-semibold text-primary">Diani, Mombasa</h3>
+              <p class="card-text">Not once but three times, Diani was voted Africa's finest beach destination.</p>
+              <a href="#" class="btn btn-primary fs-6 mx-5">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card mx-auto">
+            <img src="Images/Samurai.jpg" class="card-img-top img-fluid rounded-4 mx-auto" style="height: 300px; width: 400px;" alt="...">
+            <div class="card-body mx-auto">
+              <h3 class="card-title fw-semibold text-primary">8 days trip to Japan</h3>
+              <p class="card-text">The land of Samurai and healing Sakura. Visit Japan and see the mix of modern with ancient</p>
+              <a href="#" class="btn btn-primary fs-6 mx-5">View Details</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-8 col-md-12 bg-white border border-2">
-    <h4 style="font-family: High Tower Text" class="mt-4 text-secondary fst-italic mb-4 mx-4">Feel free to take a look at our <b class="fs-4 text-danger fst-italic">menu</b>.</h4>
+</div>
+  <hr>
+
+<!-- Contact Section -->
+<div class="container-fluid mx-auto p-4 mt-2 w-75">
+  <div class="row">
+    <div class="col mx-auto">
+      <form class="p-4" id="contact">
+          <h2 class="text-center fw-semibold text-primary">Reach Us</h2>
+      <hr>
+      <div class="row mb-3">
+        <div class="col">
+              <label class="fw-semibold">First Name:</label>
+              <input class="form-control text-secondary" type="text" placeholder="first name"/>
+        </div>
+        <div class="col">
+              <label class="fw-semibold">Last Name:</label>
+              <input class="form-control text-secondary"  type="text" placeholder="last name"/>
+        </div>        
+      </div>  
+      <div class="row mb-3">
+        <div class="col">
+              <label class="fw-semibold">Phone Number:</label>
+              <input class="form-control text-secondary" type="tel" placeholder="phone no"/>
+        </div>
+      <div class="col">
+              <label class="fw-semibold">Email:</label>
+              <input class="form-control text-secondary" type="email" placeholder="email"/>
+      </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label class="fw-semibold">Destination of Interest:</label>
+          <select class="form-control text-secondary" class="form select">       
+            <option value="M">Diani</option>
+            <option value="F">China</option>
+            <option value="O">Japan</option>
+            <option value="M">Italy</option>
+            <option value="F">Maasai Mara</option>
+            <option value="O">Costa Rica</option>
+          </select>
+        </div>                  
+      <div class="col">              
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>                           
+      </div>
+    </div>
+      <div class="text-center mt-2">
+        <button type="submit" class="btn btn-info">SUBMIT</button>
+      </div>
+    </form>
+    </div>  
+  </div>   
+</div>
+<hr/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-8 col-md-12">
+      <h4 style="font-family: High Tower Text" class="mt-2 text-secondary fst-italic mb-4 mx-4">Thank you for choosing <b class="fs-4 text-danger fst-italic">DREAM™ Travel</b>.</h4>
+    </div>
   </div>
-    
+</div>
+<!-- Footer section -->
 <div class="card">  
   <div class="row card-body bg-info-subtle mb-0 mt-0 mx-0">
       <div class="col-4 col-sm-3 col-md-4 col-lg-4">

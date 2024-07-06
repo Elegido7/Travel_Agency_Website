@@ -1,6 +1,7 @@
-body {
+.body {
     padding: 0;
     margin: 0;
+    background-color: rgb(224, 235, 240);
 }
 navbar {
     position: fixed !important;
@@ -10,23 +11,9 @@ navbar {
 .About {
     color: red;
 }
-#logo {
-    display: grid;
-    grid-template-rows: auto;
-}
 
-#appointment {
-    margin-top: 100px !important;
-    text-decoration: none;
-    color:rgb(37, 122, 233);
 
-}
-#appointment a:hover{
-    background-color: antiquewhite;
-    color: black;
-
-}
 #contact h2, p {
     text-align: center;
-    color: blue;
+    color: rgb(0, 0, 8);
 }
