@@ -1,19 +1,116 @@
 .body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(224, 235, 240);
+  padding: 0;
+  margin: 0;
+  background-color: rgb(4, 113, 82);
 }
 navbar {
-    position: fixed !important;
-    top: 0;
+  position: fixed !important;
+  top: 0;
 }
 
-.About {
-    color: red;
+.par {
+  color: rgb(228, 240, 251);
 }
 
+.amaze {
+  background-color: yellow;
+  color: rgb(23, 23, 23);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: fit-content;
+}
 
-#contact h2, p {
+.amaze:hover {
+  background-color: green;
+  color: azure;
+}
+
+#home {
+  height: 800px;
+}
+
+.link:visited {
+  color: green;
+}
+
+.link:hover {
+  color: purple;
+}
+
+.link:active {
+  color: blue;
+}
+
+#destination {
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+
+.card-img-top {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 690px) {
+    #contact {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:700px) {
+    #contact {
+    margin: 100px;
+    flex: auto;
+    flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 100px) {
+    #contact, label {
+        padding-top: 30px ;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 690px) {
+  .card-footer {
+    width: 100%;
     text-align: center;
-    color: rgb(0, 0, 8);
+    line-height: 50px;
+  }
 }
+
+@media screen and (min-width: 200px) and (max-width: 690px) {
+  .card-footer,
+  a {
+    word-spacing: 8px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card-footer {
+    line-height: 70px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card-footer,
+  label {
+    padding-left: 50px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card-footer,
+  a {
+    word-spacing: 5px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .card-footer,
+    a {
+        padding-left: 30px;
+  }

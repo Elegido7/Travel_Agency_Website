@@ -1,36 +1,34 @@
-These requirements are customized to fit the restaurant project.
+The project is based on travel agency idea. The Agency is called Dream Travel.
+The name originates from the idea of giving people a dream experience through affordable packages to their dream destinations.
 
-Project Overview:
-
-Create a landing page for a travel agency using Bootstrap components.
-Requirements:
+The project is a landing page built using Bootstrap components.
+On each section I have met various criterias;
 
     Navbar:
-        Include a navigation bar with the agency's name/logo on the left.
-        Add navigation links (Home, Destinations, Tours, Contact) on the right.
+        It has the agency's name on the left and the rest of the menu on the right.
+        The details on the right have a different color from those on the right to allow them to stand out.
+        The navbar is based on hamburger design to allow it to collapse in smaller screens.
+
     Hero Section:
-        Design a hero section with a background image showcasing a scenic travel destination.
-        Place a heading, a subheading, and a prominent call-to-action button in the center.
+        Designed with a scenic travel destination image of a waterfall with a lake-like background to capture ones breath.
+        A heading, a subheading, and a prominent call-to-action button are placed at the center with different colors and font sizes.
+
     Destinations Section:
-        Create a grid layout to display images and brief descriptions of at least three travel destinations.
-        Utilize Bootstrap cards for each destination, including an image, title, description, and a "Learn More" button.
+        A grid layout was used to showcase offers of travel destinations.
+        The designs involves a card with an image, title, description, and a "Learn More" button.
+
     Tours Section:
-        Use Bootstrap's accordion component to showcase different tour packages.
-        Each accordion item should have a title, a brief description, and a "View Details" link.
+        Bootstrap's accordion component are used to showcase different tour packages.
+        Each package has a title, a brief description, and a "View Details" link.
+
     Contact Form:
-        Design a contact form section using Bootstrap's form components.
-        Include fields for name, email, destination of interest, and a message.
+        The contact form was created with section on firstname, lastname, phone number, email, destination of interest, and a message box.
+
     Footer:
-        Design a footer with copyright information and social media icons.
+        The footer has the conpany name, copyright information and social media icons.
 
-Technical Requirements:
+Requirements:
 
-    Utilize Bootstrap components such as the navbar, jumbotron, cards, accordion, and form elements.
-    Ensure the webpage is fully responsive.
-    Test the layout on different screen sizes to ensure responsiveness.
+As per instructions the project has Bootstrap components such as the navbar, jumbotron, cards, accordion, and form elements.
+The webpage is fully responsive to small, medium and large screens. This was achieved through media queries and grid system.
 
-Additional Guidelines:
-
-    Customize Bootstrap styles to match the travel agency theme.
-    Use appropriate classes for responsiveness, such as container, row, col-md-6, etc.
-    Enhance the design by incorporating relevant images and content.# Travel_Agency_webpage
